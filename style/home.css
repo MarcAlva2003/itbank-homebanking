@@ -1,0 +1,23 @@
+.main{
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+.main--item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.main-aside--item,
+.menu-main--item{
+    padding: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.09);
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+}

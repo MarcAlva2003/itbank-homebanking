@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <title>ITBANK</title>
+    <link rel="stylesheet" href="style/globals.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/home.css">
 </head>
+
 <body>
-    <header>
-        <!-- LOGO -->       PERFIL
+    <header class="header">
+        <div class="header-logo section-container">
+            <!-- ICONO MENU -->
+            <div class="header-logo--menu-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24"
+                    stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                </svg></div>
+            <!-- LOGO ITBANK -->
+            <a href="/"><img class="header-logo--logo-image" src="assets/images/logo.png" alt="Logo ITBANK"></a>
+            <!-- ICONO PERFIL -->
+            <div class="header-logo--user-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-user-circle" width="60" height="60" viewBox="0 0 24 24"
+                    stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="12" r="9" />
+                    <circle cx="12" cy="10" r="3" />
+                    <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+                </svg></div>
+        </div>
+        <nav class="header-nav section-container">
+            <ul class="header-nav-list">
+                <li class="header-nav-list--item"><a href="#">Cuentas</li></a>
+                <li class="header-nav-list--item"><a href="#">Tarjetas</li></a>
+                <li class="header-nav-list--item"><a href="#">Transferencias</li></a>
+                <li class="header-nav-list--item"><a href="#">etc</li></a>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </nav>
-    <aside>
 
-    </aside>
-    <main>
-        <section>
-            <article>
-
-            </article>
-        </section>
+    <main class="main section-container">
+        <!-- Cajas de ahorro -->
+        <article class="main-cajas-ahorro main--item">
+            <section class="contenedor-caja-ahorro menu-main--item">
+                <h1>Caja de ahorro 1</h1>
+            </section>
+            <section class="contenedor-caja-ahorro menu-main--item">
+                <h1>Caja de ahorro 2</h1>
+            </section>
+        </article>
+        <!-- Tarjetas -->
+        <aside class="main-aside main--item">
+            <div class="contenedor-tarjetas main-aside--item">
+                tarjetas
+            </div>
+            <div class="contenedor-prestamos main-aside--item">
+                prestamos
+            </div>
+        </aside>
     </main>
+
+
     <footer>
 
     </footer>
 </body>
+
 </html>
