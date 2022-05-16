@@ -21,3 +21,9 @@
     width: 100%;
     border-radius: 5px;
 }
+@media (max-width: 768px){
+    .main{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
