@@ -4,7 +4,7 @@
 }
 .header-logo{
     height: 102px;
-    background-color: #154360 ;
+    background-color: #0104a1 ;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -22,7 +22,7 @@
     display: none;
 }
 .header-logo--logo-image{
-    height: 40px;
+    height: 60px;
 }
 .header-logo--logo-image:hover{
     /* cursor: pointer; */
@@ -30,7 +30,7 @@
 .header-nav{
     display: flex;
     height: 40px;
-    background-color: #2471A3 ;
+    background-color: #fcfcfc ;
 }
 .header-nav-list--item{
     margin-right: 35px;
