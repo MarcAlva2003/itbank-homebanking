@@ -1,3 +1,13 @@
+:root{
+    --primario: #009d71;
+    --secundario: #2ca880;
+    --terciario: #97bd9e ;
+    --azulPrimario: #789dca;
+    --azulSecundario: #88a7d0;
+    --blanco: #fff;
+    --negro: #000;
+    --gris: #c3caca;
+}
 body{
     margin: 0;
     padding: 0;
