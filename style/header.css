@@ -9,7 +9,7 @@
 
 .header-logo{
     height: 102px;
-    background-color: #0104a1 ;
+    /* background-color: #0104a1 ; */
     justify-content: space-between;
     align-items: center;
     display: flex;
