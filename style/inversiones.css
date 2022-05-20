@@ -8,7 +8,7 @@
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0,0,0,0.5)0%,rgba(0,0,0,0.5)100%), url(../img/inversion-bolsa.jpg); /*Pongo una transicion y luego la img*/
+    background: linear-gradient(rgba(0,0,0,0.5)0%,rgba(0,0,0,0.5)100%), url(../img/invesion-bolsa.jpg); /*Pongo una transicion y luego la img*/
     background-position: center center; /*Centro la imagen tanto vertical como horizontalmente*/
     background-size: cover; /*Para que la imagen abarque el 100% disponible*/
     margin-bottom: 3,12em;
@@ -29,10 +29,10 @@
 }
 
 .publicidad-principal .descripcion {
-    font-weight: normal;
-    font-size: 1em;
+    font-weight: bolder;
+    font-size: 1.1em;
     line-height: 1.75em;
-    max-width: 40%;
+    max-width: 45%;
     margin-bottom: 1.25em;
 }
 
