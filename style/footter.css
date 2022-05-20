@@ -3,7 +3,8 @@
 .footer h4 {
     padding: 10px 0 10px 0px ;
 }
-
+.footer2{
+    background-color: #88a7d0;}
 footer {
     /* padding: 15px 0px 0px 0px; */
     /* margin: 25px 0px 0px 0px; */
@@ -12,8 +13,10 @@ footer {
     /*Bordeamos el radio*/
     /* border-radius: 0.5rem; */
     margin-top: 100px;
-    
+  
 }
+
+
 #links{
 
     padding-top: 20px;
