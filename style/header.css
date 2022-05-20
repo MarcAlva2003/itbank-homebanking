@@ -1,11 +1,14 @@
+header{
+    padding: 0;
+    margin: 0;
+}
 .header{
     width: 100%;
     user-select: none;
 }
 .navbar-nav, .nav-item, .nav-link{
-    color: white
+    color: rgb(255, 255, 255)
 }
-
 
 .header-logo{
     height: 102px;
