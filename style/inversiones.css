@@ -73,16 +73,6 @@
 
 }
 
-/*MEDIA QUERIES*/
-@media screen and (max-width: 800px) {
-    .pelicula-principal {
-        font-size: 14px;
-    }
-    .pelicula-principal .descripcion {
-        max-width: 100%;
-    }
-}
-
 /*IMAGENES PARALELAS*/
 
 .publicidades-paralelas {
@@ -156,4 +146,16 @@
 .publicidades-paralelas .boton-v2:hover:hover {
     background-color: rgb(177, 57, 57);
     color: #fff;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+    .publicidad-principal {
+        font-size: 14px;
+    }
+    .publicidad-principal .descripcion {
+        max-width: 100%;
+    }
+    .publicidades-paralelas {
+    }
 }
