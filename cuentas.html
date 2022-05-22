@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="style/cuentas.css">
   <link rel="stylesheet" href="style/globals.css">
   <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/footter.css">
 
   <!-- <link rel="stylesheet" href="style/home.css"> -->
 </head>
@@ -77,30 +78,66 @@
         </nav> -->
   </header>
   <!-- MAIN -->
-  <main class="grid-main">
+  <main class="grid-main section-container">
 
     <div class="caja1">
       <h3>Cuentas</h3>
-      <div class="caja1-1">Abrir una nueva cuenta</div>
-      <div class="caja1-2">Caja de Ahorro pesos N°302-16334164/2
-        $ 1.000.000,87</div>
-      <div class="caja1-3">Cuenta Corriente pesos N°322-16334164/2 $ 1.000.000,87</div>
+      <div class="caja1-1">
+        Abrir una nueva cuenta
+      </div>
+
+
+      <div class="caja1-2">
+        <div class="caja-1-2--row">
+          <p>Caja de Ahorro pesos N°302-16334164/2</p>
+          <p>$ 1.000.000,87</p>
+        </div>
+
+        <div class="caja1-2--footer">
+          <div> <p>Transferir</p>
+            <p>Hacer un plazo fijo</p></div>
+          <div>
+            <p>icono</p>
+            <p>VOY A</p>
+          </div>
+        </div>
+      </div>
+      <div class="caja1-2">
+        <div class="caja-1-2--row">
+          <p>Caja de Ahorro pesos N°302-16334164/2</p>
+          <p>$ 1.000.000,87</p>
+        </div>
+
+        <div class="caja1-2--footer">
+          <div> <p>Transferir</p>
+            <p>Hacer un plazo fijo</p></div>
+          <div>
+            <p>icono</p>
+            <p>VOY A</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="caja1-3">
+        Cuenta Corriente pesos N°322-16334164/2 $ 1.000.000,87
+      </div> -->
     </div>
 
     
     <div class="caja2">
       <h3>Matias Salvatierra</h3>
       <div class="dropdown">
-        <button class="btn btn-secondary  dropdown-toggle white bg-primary " type="button" id="dropdownMenu2"
+        <button class="btn btn-secondary dropdown-toggle white bg-primary " type="button" id="dropdownMenu2"
         data-bs-toggle="dropdown" aria-expanded="false">
           Datos del usuario
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <li><button class="dropdown-item" type="button">Datos personales</button></li>
-          <li><button class="dropdown-item" type="button">CBU y Alias</button></li>
-          <li><button class="dropdown-item" type="button">Mis claves</button></li>
-          <li><button class="dropdown-item" type="button">Comprobantes</button></li>
-          <li><button class="dropdown-item" type="button">Premios</button></li>
+          <li><button id="dropdown-item" class="dropdown-item" type="button">Datos personales</button></li>
+          <li><button id="dropdown-item" class="dropdown-item" type="button">CBU y Alias</button></li>
+          <li><button id="dropdown-item" class="dropdown-item" type="button">Mis claves</button></li>
+          <li><button id="dropdown-item" class="dropdown-item" type="button">Comprobantes</button></li>
+          <li><button id="dropdown-item" class="dropdown-item" type="button">Premios</button></li>
           
         </ul>
       </div>
