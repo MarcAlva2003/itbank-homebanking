@@ -21,6 +21,67 @@
     width: 100%;
     border-radius: 5px;
 }
+
+/*IMAGEN PRINCIPAL*/
+.publicidad-principal {
+    font-size: 16px;
+    min-height: 40.3em;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.5)0%,rgba(0,0,0,0.5)50%), url(../img/mujer-tarjeta.jpg); /*Pongo una transicion y luego la img*/
+    background-position: center center; /*Centro la imagen tanto vertical como horizontalmente*/
+    background-size: cover; /*Para que la imagen abarque el 100% disponible*/
+    margin-bottom: 3,12em;
+    display: flex;
+    align-items: end;
+    height: 100%;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+}
+
+.publicidad-principal .contenedor {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.publicidad-principal .titulo {
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+.publicidad-principal .descripcion {
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    max-width: 45%;
+    margin-bottom: 1.25em;
+}
+
+.publicidad-principal .boton {
+    background: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: 3s ease all;
+    font-size: 1.12em;
+}
+
+.publicidad-principal .boton i {
+    margin-right: 1.25em;
+}
+
+.publicidad-principal .boton:hover{
+    background: #fff;
+    color:#000;
+
 @media (max-width: 768px){
     .main{
         grid-template-columns: 1fr;
