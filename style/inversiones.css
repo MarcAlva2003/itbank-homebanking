@@ -77,11 +77,16 @@
 
 .publicidades-paralelas {
     /*Estos dos comandos se utilizan para poner en columnas los diferentes elementos de un div con la propiedad contenedor*/
-    margin-top: 3em;
-    margin-bottom: 3em ;
+    margin-top: 5em;
+    margin-bottom: 5em ;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(30, 30, 30);
+    height: 68em;
+    background: url(../img/textura-background-2.jpg);
+    background-position: center center; /*Centro la imagen tanto vertical como horizontalmente*/
+    background-size: cover; /*Para que la imagen abarque el 100% disponible*/
+    margin-bottom: 3,12em; 
+    gap: 2em;
 }
 
 .publicidades-paralelas article {
@@ -89,7 +94,11 @@
     border-radius: 1.75em;
     width: 37.5em;
     height: 56.25em;
-    margin: 2em auto;
+    margin: 5em auto;
+}
+
+.publicidades-paralelas article:hover {
+    box-shadow: 0 0.4rem 0.8rem rgba(0,0,0,0.5);
 }
 
 .publicidades-paralelas .publicidad-paralela-1 {
@@ -148,6 +157,47 @@
     color: #fff;
 }
 
+/*PUBLICIDAD INFERIOR*/
+
+.modelo-de-atencion {
+    font-size: 16px;
+    margin-top: 5em;
+    margin-bottom: 2em ;
+    min-height: 50.3em;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.5)0%,rgba(0,0,0,0.5)100%), url(../img/llamada-mujer.jpg); /*Pongo una transicion y luego la img*/
+    background-position: center center; 
+    background-size: cover;
+    margin-bottom: 3,12em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modelo-de-atencion .titulo-ma {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0.7em;
+    margin-top: 7bem;
+}
+
+.modelo-de-atencion .descripcion-ma {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.modelo-de-atencion article {
+    margin: 2em 0em;
+    border-radius: 1.75em;
+    width: 37.5em;
+    height: 56.25em;
+    margin: 5em auto;
+}
+
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 800px) {
     .publicidad-principal {
@@ -159,3 +209,4 @@
     .publicidades-paralelas {
     }
 }
+
