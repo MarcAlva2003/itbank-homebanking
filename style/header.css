@@ -32,9 +32,7 @@ header{
 .header-logo--logo-image{
     height: 60px;
 }
-.header-logo--logo-image:hover{
-    /* cursor: pointer; */
-}
+
 .header-nav{
     display: flex;
     height: 40px;
