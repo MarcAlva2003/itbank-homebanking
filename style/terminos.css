@@ -28,7 +28,7 @@
     margin-top: 0.4em;
 }
 
-.publicidad-principal .descripcion, {
+.publicidad-principal .descripcion {
     font-weight: bolder;
     font-size: 1.1em;
     line-height: 1.75em;
@@ -68,6 +68,10 @@
     align-items: end;
     height: 100%;
 
+}
+
+.contenedor p {
+    margin-bottom: 100px;
 }
 
 /*MEDIA QUERIES*/
