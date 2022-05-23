@@ -12,7 +12,7 @@ header{
 
 .header-logo{
     height: 102px;
-    background-color: #88a7d0 ;
+    background-color: var(--terciario) ;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -36,7 +36,7 @@ header{
 .header-nav{
     display: flex;
     height: 40px;
-    background-color: #88a7d0;
+    background-color: var(--terciario);
 }
 .header-nav-list--item{
     margin-right: 35px;
@@ -49,14 +49,20 @@ header{
     color: #154360;
     cursor: pointer;
 }
+#container-fluid{
+    padding: 0;
+}
+#nav-link{
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 16px;
+}
+#nav-link:hover{
+    color: var(--secundario);
+}
 
 @media (min-width: 992px){
     #icono-open-navbar{
         display: none;
-    }
-}
-@media (max-width: 768px){
-    .header-logo--menu-icon{
-        display: block;
     }
 }

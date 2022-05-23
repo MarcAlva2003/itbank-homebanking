@@ -3,20 +3,20 @@
     margin: 0;
     display: grid;
     grid-template-columns: 65% auto;
-    grid-template-rows: 1fr 1fr;
     grid-gap: 0.5em;
     grid-template-areas:
         "caja1 caja2"
 
 
 }
+
 .caja1 {
     margin: 0%;
     padding-left: 5px;
-    color: rgb(0, 58, 247);
+
     display: grid;
     grid-gap: 0.5em;
-    
+
     /* grid-template-rows: 10% 20% 20% auto; */
     grid-template-areas:
         "caja1"
@@ -26,10 +26,7 @@
     ;
 }
 
-.caja2 {
-    width: 100%
-    
-}
+.caja2 {}
 
 
 
@@ -37,29 +34,40 @@
     background-color: #fff;
     /* grid-area: caja1-1; */
     margin-left: 10px;
-    margin-right:10px;
-    
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.caja1-1 img{
+    width: 16px;
+    height: 16px;
 }
 
 .caja1-2 {
-    background-color:#fff ;
+    background-color: #fff;
     /* grid-area: caja1-2; */
     margin-left: 10px;
-    margin-right:10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 200px;
+    /* height: 200px; */
 }
+
 .caja-1-2--row {
     display: flex;
     justify-content: space-between;
 }
-.second-row{
+
+.second-row {
     justify-content: start;
 
 }
-.caja1-2--footer{
+
+.caja1-2--footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -67,13 +75,15 @@
     background-color: #ddd;
     column-gap: 20px;
 }
+
 .caja1-3 {
     background-color: #fff;
     /* grid-area: caja1-3; */
     margin-left: 10px;
-    margin-right:10px;
+    margin-right: 10px;
     margin-bottom: 10px;
 }
+
 .dropdown button {
     width: 100% !important;
     margin-bottom: 10px;
