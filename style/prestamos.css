@@ -98,7 +98,7 @@
     justify-content: end;
 }
 .input-submit-button{
-    border: 2px solid rgb(225, 225, 225);
+    border: none;
     width: 200px;
     padding: 10px 0;
     border-radius: 4px;
