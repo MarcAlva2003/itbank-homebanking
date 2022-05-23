@@ -57,6 +57,9 @@ header{
     padding-right: 0;
     margin-right: 16px;
 }
+#nav-link:hover{
+    color: var(--secundario);
+}
 
 @media (min-width: 992px){
     #icono-open-navbar{
