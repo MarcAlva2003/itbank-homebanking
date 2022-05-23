@@ -19,110 +19,209 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-logo section-container">
-          <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav>
-          <!-- LOGO ITBANK -->
-          <a href="/"><img class="header-logo--logo-image" src="assets/icons/itbank-logo.svg" alt="Logo ITBANK"></a>
-          <!-- ICONO PERFIL -->
-          <div class="header-logo--user-icon"><svg xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-user-circle" width="60" height="60" viewBox="0 0 24 24" stroke-width="1"
-              stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <circle cx="12" cy="12" r="9" />
-              <circle cx="12" cy="10" r="3" />
-              <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
-            </svg></div>
+  <header class="header">
+    <div class="header-logo section-container">
+      <nav class="navbar navbar-expand-lg " id="icono-open-navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <nav class="navbar navbar-expand-lg bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
+      </nav>
+      <!-- LOGO ITBANK -->
+      <a href="/"><img class="header-logo--logo-image" src="assets/icons/itbank-logo.svg" alt="Logo ITBANK"></a>
+      <!-- ICONO PERFIL -->
+      <div class="flex-shrink-0 dropdown">
+        <a
+          href="#"
+          class="header-logo--user-icon d-block link-dark text-decoration-none dropdown-toggle"
+          id="dropdownUser2"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-user-circle"
+            width="60"
+            height="60"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            stroke="#000000"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="10" r="3" />
+            <path
+              d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"
+            />
+          </svg>
+        </a>
+        <ul
+          class="dropdown-menu text-small dropdown-menu-dark gap-1 p-2 rounded-3 mx-0 border-0 shadow"
+          aria-labelledby="dropdownUser2"
+          
+        >
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+              >Perfil</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+              >Sucursales</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+              >Opciones</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+              >Ayuda</a
+            >
+          </li>
+          <li><hr class="dropdown-divider" /></li>
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: #0d6efd"
+              >Cerrar Sesion</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-dark section-container">
+      <div class="container-fluid" id="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="nav-link" aria-current="page" href="cuentas.html">Cuentas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-link" href="prestamos.html">Prestamos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-link" href="inversiones.html">Inversiones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-link" href="terminos.html">Términos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="prestamos.html">Prestamos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="inversiones.html">Inversiones</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link">Consulta</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+  </header>
 
 
 
       <div class="terminos-background">
         <div class="terminos-section section-container">
           <h1>Legales</h1>
-          <nav>
-            <ul>
-              <li><a href="#seccion-1">seccion 1</a></li>
-              <li><a href="#seccion-2">seccion 2</a></li>
-              <li><a href="#seccion-3">seccion 3</a></li>
-              <li><a href="#seccion-4">seccion 4</a></li>
-            </ul>
-          </nav>
 
           <div class="legal-section-container" id="seccion-1">
-            <h3 class="legal-section-container--titulo">Seccion 1</h3>
+            <h3 class="legal-section-container--titulo">Términos y condiciones</h3>
             <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
           </div>
           <div class="legal-section-container" id="seccion-2">
-            <h3 class="legal-section-container--titulo">Seccion 2</h3>
+            <h3 class="legal-section-container--titulo">Política de provacidad</h3>
             <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
           </div>
           <div class="legal-section-container" id="seccion-3">
-            <h3 class="legal-section-container--titulo">Seccion 3</h3>
+            <h3 class="legal-section-container--titulo">Cookies</h3>
             <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
           </div>
           <div class="legal-section-container" id="seccion-4">
-            <h3 class="legal-section-container--titulo">Seccion 4</h3>
+            <h3 class="legal-section-container--titulo">Prestamos</h3>
             <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+          </div>
+          <div class="legal-section-container" id="seccion-4">
+            <h3 class="legal-section-container--titulo">Inversiones</h3>
+            <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+          </div>
+          <div class="legal-section-container" id="seccion-4">
+            <h3 class="legal-section-container--titulo">Tarjeta de crédito</h3>
+            <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
+            <p class="legal-section-container--parrafo">Consectetur adipisicing elit. Accusantium ipsum harum unde optio. Nihil praesentium repellendus culpa labore quidem architecto reiciendis, consequatur ipsum harum quam facilis facere nobis rerum aperiam.</p>
           </div>
         </div>
       </div>
+      <footer class="conteiner footer">
 
-      <!-- <main class="terminos-contenedor--bg">
-        <div class="section-container">
-          <div class="terminos-contenedor">
-            <h2 class="titulo"> Términos y condiciones</h2>
-              <div class="seccion-legal" id="seccion-legal">
-                <h3>Información relevante</h3>
-                <p class="parrafos" id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dolor voluptatibus? Culpa nesciunt est blanditiis temporibus consequuntur.</p>
-              </div>
-              <div class="seccion-legal" id="seccion-legal">
-                <h3>Licencias</h3>
-                <p class="parrafos" id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dolor voluptatibus? Culpa nesciunt est blanditiis temporibus consequuntur.</p>
-              </div>
-              <div class="seccion-legal" id="seccion-legal">
-                <h3>Uso No autorizado</h3>
-                <p class="parrafos" id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dolor voluptatibus? Culpa nesciunt est blanditiis temporibus consequuntur.</p>
-              </div>
-              <div class="seccion-legal" id="seccion-legal">
-                <h3>Propiedad Intelectual</h3>
-                <p class="parrafos" id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dolor voluptatibus? Culpa nesciunt est blanditiis temporibus consequuntur.</p>
-              </div>
-              
+        <div class="d-flex flex-row section-container justify-content-between" id="links">
+          <div class=" links-column">
+            <h4>AYUDA</h4>
+            <ul>
+              <li class="links-column--link"><a href="https://campus.itba.edu.ar">Preguntas frecuentes</a></li>
+              <li class="links-column--link"><a href="mailto:ITBANK@gmail.com">Envienos un correo</a></li>
+              <li class="links-column--link"><a href="https://youtube.com.ar">Ver tutorial</a></li>
+            </ul>
           </div>
+          <div class=" links-column">
+            <h4>SUCURSALES</h4>
+            <ul>
+              <li class="links-column--link"><a href="sucycajero.html">Nuestras sucursales</a></li>
+              <li class="links-column--link"><a href="sucycajero.html">Cajeros</a></li>
+              <li class="links-column--link"><a href="https://itba.edu.ar">Otros servicios</a></li>
+            </ul>
+          </div>
+          <div class=" links-column">
+            <h4>REDES SOCIALES</h4>
+            <ul>
+              <li class="links-column--link"><a href="https://www.Instagram.com">Instagram</a></li>
+              <li class="links-column--link"><a href="https://www.Facebook.com">Facebook</a></li>
+              <li class="links-column--link"><a href="https://www.Twiter.com">Twiter</a></li>
+            </ul>
+          </div>
+          
         </div>
-      </main> -->
-      
+        
+        <div class="d-flex flex-row justify-content-between section-container" id="fondo">
+          <div class="fondo-item"><a class="text" href="terminos.html">Terminos y condiciones</a></div>
+          <div class="fondo-item"><a class="text" href="https://www.paginaweb.com">Sobre nosotros</a></div>
+          <div class="fondo-item"><a class="text" href="https://www.paginaweb.com">www.itbank.com</a></div>
+        </div>
+      </footer>
+
+
+
+
       <!--Para los iconos utilizados-->
   <script src="https://kit.fontawesome.com/c301eb48e5.js" crossorigin="anonymous"></script>
   <!-- JavaScript Bundle with Popper -->

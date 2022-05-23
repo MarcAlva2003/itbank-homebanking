@@ -10,6 +10,9 @@
 .legal-section-container--titulo{
     margin-bottom: 20px;
 }
+.legal-section-container--parrafo{
+    margin-bottom: 10px;
+}
 /*MEDIA QUERIES*/
 @media screen and (max-width: 800px) {
     .pelicula-principal {
