@@ -1,75 +1,15 @@
-.contenedor {
-    width: 100%;
-    margin: auto;
+.terminos-section{
+    margin-top: 60px;
 }
-
-/*IMAGEN PRINCIPAL*/
-.publicidad-principal {
-    font-size: 16px;
-    min-height: 40.3em;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(rgba(0,0,0,0.5)0%,rgba(0,0,0,0.5)100%), url(../img/invesion-bolsa.jpg); /*Pongo una transicion y luego la img*/
-    background-size: cover; /*Para que la imagen abarque el 100% disponible*/
-    margin-bottom: 3,12em;
-    display: flex;
-    align-items: end;
-    height: 90px;
-
+.legal-section-container{
+    background-color: var(--background2);
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 7px;
 }
-
-.publicidad-principal .contenedor, .publicidad-principal2 {
-    margin: 0 auto;
-    margin-bottom: 6.25em;
+.legal-section-container--titulo{
+    margin-bottom: 20px;
 }
-
-.publicidad-principal .titulo, .publicidad-principal2 {
-    font-weight: 600;
-    font-size: 3.12em;
-    margin-top: 0.4em;
-}
-
-.publicidad-principal .descripcion, {
-    font-weight: bolder;
-    font-size: 1.1em;
-    line-height: 1.75em;
-    max-width: 45%;
-    margin-bottom: 1.25em;
-}
-
-.publicidad-principal .boton, .publicidad-principal2 {
-    background: rgba(0,0,0,0.5);
-    border: none;
-    border-radius: 0.31em;
-    padding: 0.93em 1.87em;
-    color: #fff;
-    margin-right: 1.25em;
-    cursor: pointer;
-    transition: 3s ease all;
-    font-size: 1.12em;
-}
-
-.publicidad-principal .boton i,.publicidad-principal2 {
-    margin-right: 1.25em;
-}
-
-.publicidad-principal .boton:hover, .publicidad-principal2{
-    background: #fff;
-    color:#000;
-}
-.publicidad-principal2 {
-    font-size: 16px;
-    min-height: 40.3em;
-    color: #fff;
-    background: linear-gradient(rgba(0,0,0,0.5)0%,rgba(0,0,0,0.5)100%), url(../img/mujer-tarjeta.jpg); /*Pongo una transicion y luego la img*/
-    background-position: center center; /*Centro la imagen tanto vertical como horizontalmente*/
-    background-size: cover; /*Para que la imagen abarque el 100% disponible*/
-    margin-bottom: 3,12em;
-    display: flex;
-    align-items: end;
-    height: 100%;
-
-}
-
 /*MEDIA QUERIES*/
 @media screen and (max-width: 800px) {
     .pelicula-principal {
