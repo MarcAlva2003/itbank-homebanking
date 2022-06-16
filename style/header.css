@@ -4,6 +4,7 @@ header{
 }
 .header{
     width: 100%;
+    
     user-select: none;
 }
 .navbar-nav, .nav-item, .nav-link{
