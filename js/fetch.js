@@ -50,7 +50,7 @@ function imprimirValores(dolar) {
 
         contenedorDolares.appendChild(contenedorDolar);
     } else if (dolar.nombre === "Argentina") {
-        textoUltimaFecha.innerHTML = `Ultima actualizacion: ${dolar.fecha}`;
+        textoUltimaFecha.innerHTML = `Ultima actualización: ${dolar.fecha}`;
     }
 }
 
