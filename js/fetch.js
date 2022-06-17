@@ -1,20 +1,26 @@
 const contenedorDolares = document.getElementById('dolars-container-javascrips');
+const textoUltimaFecha = document.getElementById('ult-fecha-dolar')
 
 function imprimirValores(dolar){
     const nombreDolar = document.createElement('span');
-    nombreDolar.innerHTML = dolar.nombre;
-
     const precioVenta = document.createElement('p');
-    precioVenta.innerHTML = dolar.venta;
+    const precioCompra = document.createElement('p');
+    const contenedorDolar = document.createElement('div');
 
-    const contenedorDolar = document.createElement('div')
+    nombreDolar.innerHTML = dolar.nombre;
+    precioVenta.innerHTML = dolar.venta;    
+    precioCompra.innerHTML = dolar.compra;
 
-    contenedorDolar.className = 'carta'
+    contenedorDolar.className = 'carta';
 
-    contenedorDolar.appendChild(nombreDolar)
-    contenedorDolar.appendChild(precioVenta)
-
-    contenedorDolares.appendChild(contenedorDolar)
+    if(dolar.nombre !== 'Dolar Soja' && dolar.nombre !== 'Argentina' && dolar.nombre !== 'Bitcoin'){
+        contenedorDolar.appendChild(nombreDolar)
+        contenedorDolar.appendChild(precioVenta);
+        contenedorDolar.appendChild(precioCompra);
+        contenedorDolares.appendChild(contenedorDolar);
+    } else if(dolar.nombre === 'Argentina') {
+        textoUltimaFecha.innerHTML = `Ultima actualizacion: ${dolar.fecha}`;
+    }
 }
 
 
@@ -23,9 +29,9 @@ function llamarApiDolares(){
         .then(res => res.json()) //SE PONE COMO PRIMER THEN
         .then(res => { //RES = ARRAY DE OBJETOS
             for(dolar of res){
-                imprimirValores(dolar.casa)
+                imprimirValores(dolar.casa);
             }
         })
 }
 
-    llamarApiDolares()
+    llamarApiDolares();
