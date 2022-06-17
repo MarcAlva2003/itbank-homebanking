@@ -17,7 +17,7 @@ function imprimirValores(dolar) {
     tituloVenta.innerHTML = 'Venta: ';
     tituloCompra.innerHTML = 'Compra: ';
     tituloVariacion.innerHTML = 'Variación: ';
-    tituloVariacion.className += 'text-dark';
+    tituloVariacion.className += 'text-white';
     precioVenta.appendChild(tituloVenta);
     precioCompra.appendChild(tituloCompra);
     variacion.appendChild(tituloVariacion);
