@@ -1,3 +1,4 @@
+const API_URL = 'https://www.dolarsi.com/api/api.php?type=valoresprincipales'
 const contenedorDolares = document.getElementById(
     "dolars-container-javascrips"
 );
@@ -54,7 +55,7 @@ function imprimirValores(dolar) {
 }
 
 function llamarApiDolares() {
-    fetch("https://www.dolarsi.com/api/api.php?type=valoresprincipales")
+    fetch(API_URL)
         .then((res) => res.json()) //SE PONE COMO PRIMER THEN
         .then((res) => {
             //RES = ARRAY DE OBJETOS
