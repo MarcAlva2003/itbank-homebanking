@@ -27,7 +27,7 @@
     font-size: 16px;
     min-height: 28.6em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.5)50%), url(../img/hombreConCEl.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.5)50%), url(../img/mujer-tarjeta.jpg);
     /*Pongo una transicion y luego la img*/
     background-position: center center;
     /*Centro la imagen tanto vertical como horizontalmente*/
@@ -107,7 +107,7 @@
     font-size: 16px;
     min-height: 28.6em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.5)50%), url(../img/mujer-tarjeta.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.5)50%), url(../img/hombreConCEl.jpeg);
     /*Pongo una transicion y luego la img*/
     background-position: center center;
     /*Centro la imagen tanto vertical como horizontalmente*/
