@@ -27,8 +27,8 @@ function imprimirValores(dolar) {
     dolar.compra !== 'No Cotiza' ? precioCompra.innerHTML += `$${dolar.compra}` : precioCompra.innerHTML += `No cotiza`;
     dolar.variacion ? variacion.innerHTML += `${dolar.variacion}%` : variacion.innerHTML += `-`;
 
-
-    contenedorDolar.className = "carta";
+    nombreDolar.className += 'pt-2 pb-2';
+    contenedorDolar.className += "carta pt-2 pb-3";
     if (dolar.variacion !== undefined) {
         if (dolar.variacion.includes('-')){
             variacion.className += 'text-danger'
