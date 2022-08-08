@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="style/tarjeta.css">
     <link rel="stylesheet" href="style/globals.css" />
     <link rel="stylesheet" href="style/header.css" />
@@ -13,154 +18,154 @@
     <title>Tarjetas</title>
 </head>
 <body>
-        <header class="header">
-            <div class="header-logo section-container">
-              <nav class="navbar navbar-expand-lg" id="icono-open-navbar">
-                <div class="container-fluid">
-                  <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </div>
-              </nav>
-              <!-- LOGO ITBANK -->
-              <a href="/"
-                ><img
-                  class="header-logo--logo-image"
-                  src="assets/icons/itbank-logo.svg"
-                  alt="Logo ITBANK"
-              /></a>
-              <!-- ICONO PERFIL -->
-              <div class="flex-shrink-0 dropdown">
-                <a
-                  href="#"
-                  class="header-logo--user-icon d-block link-dark text-decoration-none dropdown-toggle"
-                  id="dropdownUser2"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="icon icon-tabler icon-tabler-user-circle"
-                    width="60"
-                    height="60"
-                    viewBox="0 0 24 24"
-                    stroke-width="1"
-                    stroke="#000000"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <circle cx="12" cy="12" r="9" />
-                    <circle cx="12" cy="10" r="3" />
-                    <path
-                      d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"
-                    />
-                  </svg>
-                </a>
-                <ul
-                  class="dropdown-menu text-small dropdown-menu-dark gap-1 p-2 rounded-3 mx-0 border-0 shadow"
-                  aria-labelledby="dropdownUser2"
-                >
-                  <li>
-                    <a
-                      class="dropdown-item rounded-2"
-                      href="#"
-                      style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
-                      >Perfil</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item rounded-2"
-                      href="#"
-                      style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
-                      >Sucursales</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item rounded-2"
-                      href="#"
-                      style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
-                      >Opciones</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item rounded-2"
-                      href="#"
-                      style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
-                      >Ayuda</a
-                    >
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item rounded-2"
-                      href="#"
-                      style="--bs-dropdown-link-hover-bg: #0d6efd"
-                      >Cerrar Sesion</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <nav class="navbar navbar-expand-lg bg-dark section-container">
-              <div class="container-fluid" id="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        id="nav-link"
-                        aria-current="page"
-                        href="cuentas.html"
-                        >Cuentas</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="nav-link" href="prestamos.html"
-                        >Prestamos</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="nav-link" href="inversiones.html"
-                        >Inversiones</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="nav-link" href="terminos.html"
-                        >Términos</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-    </header>
-    <div class="card1">
-        <div class="card-inner">
-          <div class="card-front">
-            <div class="card-bg"></div>
-            <div class="card-glow"></div>
+  <header class="header">
+    <div class="header-logo section-container">
+      <nav class="navbar navbar-expand-lg" id="icono-open-navbar">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- LOGO ITBANK -->
+      <a href="/"
+        ><img
+          class="header-logo--logo-image"
+          src="assets/icons/itbank-logo.svg"
+          alt="Logo ITBANK"
+      /></a>
+      <!-- ICONO PERFIL -->
+      <div class="flex-shrink-0 dropdown">
+        <a
+          href="#"
+          class="header-logo--user-icon d-block link-dark text-decoration-none dropdown-toggle"
+          id="dropdownUser2"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-user-circle"
+            width="60"
+            height="60"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            stroke="#000000"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="10" r="3" />
+            <path
+              d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"
+            />
+          </svg>
+        </a>
+        <ul
+          class="dropdown-menu text-small dropdown-menu-dark gap-1 p-2 rounded-3 mx-0 border-0 shadow"
+          aria-labelledby="dropdownUser2"
+        >
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+              >Perfil</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+              >Sucursales</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+              >Opciones</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+              >Ayuda</a
+            >
+          </li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li>
+            <a
+              class="dropdown-item rounded-2"
+              href="#"
+              style="--bs-dropdown-link-hover-bg: #0d6efd"
+              >Cerrar Sesion</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-dark section-container">
+      <div class="container-fluid" id="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="nav-link"
+                aria-current="page"
+                href="cuentas.html"
+                >Cuentas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-link" href="prestamos.html"
+                >Prestamos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-link" href="inversiones.html"
+                >Inversiones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-link" href="terminos.html"
+                >Términos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <div class="tarjeta">
+        <div class="card-inner1">
+          <div class="card-front1">
+            <div class="card-bg1"></div>
+            <div class="card-glow1"></div>
             <svg
-              width="72"
-              height="24"
+              width="80"
+              height="30"
               viewBox="0 0 72 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              class="logo"
+              class="logo1"
             >
               <path
                 fill-rule="evenodd"
@@ -169,7 +174,7 @@
                 fill="white"
               />
             </svg>
-            <div class="card-contactless">
+            <div class="card-contactless1">
               <svg xmlns="http://www.w3.org/2000/svg" width="46" height="56">
                 <path
                   fill="none"
@@ -181,16 +186,23 @@
                 />
               </svg>
             </div>
-            <div class="card-chip"></div>
-            <div class="card-holder">Lautaro Profumo</div>
-            <div class="card-number">1234 5678 9000 1234</div>
-            <div class="card-valid">12/24</div>
+            <div class="card-chip1"></div>
+            <div class="card-holder1">Lautaro Profumo</div>
+            <div class="card-number1">1234 5678 9000 1234</div>
+            <div class="card-valid1">12/24</div>
           </div>
-          <div class="card-back">
-            <div class="card-signature"></div>
-            <div class="card-seccode">433</div>
+          <div class="card-back1">
+            <div class="card-signature1"></div>
+            <div class="card-seccode1">433</div>
           </div>
         </div>
-      </div>
+    </div>
 </body>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+  ></script>
+  <script src="js/auth.js"></script>
+  <script src="js/fetch.js"></script>
 </html>
