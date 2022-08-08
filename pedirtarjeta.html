@@ -14,10 +14,159 @@
     <link rel="stylesheet" href="style/footter.css" />
     <link rel="stylesheet" href="dolarcard.css" />
     <link rel="stylesheet" href="style/peditutarjeta.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
   </head>
 <body>
+    <header class="header">
+        <div class="header-logo section-container">
+          <nav class="navbar navbar-expand-lg" id="icono-open-navbar">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+          <!-- LOGO ITBANK -->
+          <a href="/"
+            ><img
+              class="header-logo--logo-image"
+              src="assets/icons/itbank-logo.svg"
+              alt="Logo ITBANK"
+          /></a>
+          <!-- ICONO PERFIL -->
+          <div class="flex-shrink-0 dropdown">
+            <a
+              href="#"
+              class="header-logo--user-icon d-block link-dark text-decoration-none dropdown-toggle"
+              id="dropdownUser2"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-user-circle"
+                width="60"
+                height="60"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                stroke="#000000"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="12" cy="12" r="9" />
+                <circle cx="12" cy="10" r="3" />
+                <path
+                  d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"
+                />
+              </svg>
+            </a>
+            <ul
+              class="dropdown-menu text-small dropdown-menu-dark gap-1 p-2 rounded-3 mx-0 border-0 shadow"
+              aria-labelledby="dropdownUser2"
+            >
+              <li>
+                <a
+                  class="dropdown-item rounded-2"
+                  href="#"
+                  style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+                  >Perfil</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item rounded-2"
+                  href="#"
+                  style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+                  >Sucursales</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item rounded-2"
+                  href="#"
+                  style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+                  >Opciones</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item rounded-2"
+                  href="#"
+                  style="--bs-dropdown-link-hover-bg: rgb(94, 171, 227)"
+                  >Ayuda</a
+                >
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a
+                  class="dropdown-item rounded-2"
+                  href="#"
+                  style="--bs-dropdown-link-hover-bg: #0d6efd"
+                  >Cerrar Sesion</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-dark section-container">
+          <div class="container-fluid" id="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="nav-link"
+                    aria-current="page"
+                    href="cuentas.html"
+                    >Cuentas</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nav-link" href="prestamos.html"
+                    >Prestamos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nav-link" href="inversiones.html"
+                    >Inversiones</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nav-link" href="terminos.html"
+                    >Términos</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container">
+        <div class="row">
+            <div class="col bg">
+
+            </div>
+            <div class="col">
+                </div>
+                <h2 class="fw-bold text-center pt-5 mg-5">Solicita Tu Tarjeta</h2>
     <div class="contenedor">
 
 		<!-- Tarjeta -->
@@ -29,18 +178,18 @@
 				<img src="img/chip-tarjeta.png" class="chip" alt="">
 				<div class="datos">
 					<div class="grupo" id="numero">
-						<p class="label">Número Tarjeta</p>
-						<p class="numero">#### #### #### ####</p>
+						<p class="label">Numero de Tarjeta</p>
+						<p class="numero">4573 8963 5858</p>
 					</div>
 					<div class="flexbox">
 						<div class="grupo" id="nombre">
-							<p class="label">Nombre Tarjeta</p>
-							<p class="nombre">Jhon Doe</p>
+							<p class="label">Nombre en la Tarjeta</p>
+							<p class="nombre">ItBank</p>
 						</div>
 
 						<div class="grupo" id="expiracion">
 							<p class="label">Expiracion</p>
-							<p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+							<p class="expiracion"><span class="mes">21</span> / <span class="year">05</span></p>
 						</div>
 					</div>
 				</div>
@@ -51,15 +200,15 @@
 				<div class="datos">
 					<div class="grupo" id="firma">
 						<p class="label">Firma</p>
-						<div class="firma"><p></p></div>
+						<div class="firma"><p>lprofumo</p></div>
 					</div>
 					<div class="grupo" id="ccv">
 						<p class="label">CCV</p>
-						<p class="ccv"></p>
+						<p class="ccv">433</p>
 					</div>
 				</div>
-				<p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
-				<a href="#" class="link-banco">www.tubanco.com</a>
+				<p class="leyenda">Para comunicarse al banco bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illum natus autem officiis repudiandae iste illo animi repellendus nam doloribus laudantium recusandae, laboriosam debitis delectus ipsum? Magni, id impedit! Numquam?</p>
+				<a href="#" class="link-banco">www.itbank.com</a>
 			</div>
 		</section>
 
@@ -73,52 +222,122 @@
 		<!-- Formulario -->
 		<form action="" id="formulario-tarjeta" class="formulario-tarjeta">
 			<div class="grupo">
-				<label for="inputNumero">Número Tarjeta</label>
+				<label for="inputNumero">Nombre Completo</label>
 				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
 			</div>
 			<div class="grupo">
-				<label for="inputNombre">Nombre</label>
+				<label for="inputNombre">Documento</label>
 				<input type="text" id="inputNombre" maxlength="19" autocomplete="off">
 			</div>
-			<div class="flexbox">
-				<div class="grupo expira">
-					<label for="selectMes">Expiracion</label>
-					<div class="flexbox">
-						<div class="grupo-select">
-							<select name="mes" id="selectMes">
-								<option disabled selected>Mes</option>
-							</select>
-							<i class="fas fa-angle-down"></i>
-						</div>
-						<div class="grupo-select">
-							<select name="year" id="selectYear">
-								<option disabled selected>Año</option>
-							</select>
-							<i class="fas fa-angle-down"></i>
-						</div>
-					</div>
-				</div>
-
-				<div class="grupo ccv">
-					<label for="inputCCV">CCV</label>
-					<input type="text" id="inputCCV" maxlength="3">
-				</div>
+            <div class="grupo">
+				<label for="inputNombre">Nacionalidad</label>
+                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
 			</div>
-			<button type="submit" class="btn-enviar">Enviar</button>
+			<div class="grupo">
+				<label for="inputNombre">Telefono Celular</label>
+                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+			</div>
+            <div class="grupo">
+				<label for="inputNombre">Numero de cliente del bco</label>
+                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+			</div>
+            <div class="grupo">
+				<label for="inputNombre">Tipo de tarjeta a solicitar</label>
+                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+			</div>
+
+			<button type="submit" class="btn-enviar">Enviar Solicitud</button>
 		</form>
 	</div>
-
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
+</footer>
+<br> <br> <br> <br> <br>
+<footer class="conteiner footer">
+  
+  <div
+    class="d-flex flex-row section-container justify-content-between"
+    id="links"
+  >
+    <!-- <div class="col-1"></div> -->
+    <div class="links-column">
+      <h4>AYUDA</h4>
+      <ul>
+        <li class="links-column--link">
+          <a href="https://campus.itba.edu.ar">Preguntas frecuentes</a>
+        </li>
+        <li class="links-column--link">
+          <a href="mailto:ITBANK@gmail.com">Envienos un correo</a>
+        </li>
+        <li class="links-column--link">
+          <a href="https://youtube.com.ar">Ver tutorial</a>
+        </li>
+      </ul>
     </div>
-</div>
-</div>
-</div>
+
+    <!-- <div class="col-1"></div> -->
+    <div class="links-column">
+      <h4>SUCURSALES</h4>
+      <ul>
+        <li class="links-column--link">
+          <a href="sucycajero.html">Nuestras sucursales</a>
+        </li>
+        <li class="links-column--link">
+          <a href="sucycajero.html">Cajeros</a>
+        </li>
+        <li class="links-column--link">
+          <a href="https://itba.edu.ar">Otros servicios</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="col-2"></div> -->
+    <div class="links-column">
+      <h4>REDES SOCIALES</h4>
+      <ul>
+        <li class="links-column--link">
+          <a href="https://www.Instagram.com">Instagram</a>
+        </li>
+        <li class="links-column--link">
+          <a href="https://www.Facebook.com">Facebook</a>
+        </li>
+        <li class="links-column--link">
+          <a href="https://www.Twiter.com">Twiter</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div
+    class="d-flex flex-row justify-content-between section-container"
+    id="fondo"
+  >
+    <!-- <div class="col-1"></div> -->
+    <div class="fondo-item">
+      <a class="text" href="terminos.html">Terminos y condiciones</a>
+    </div>
+
+    <!-- <div class="col-1"></div> -->
+    <div class="fondo-item">
+      <a class="text" href="https://www.paginaweb.com">Sobre nosotros</a>
+    </div>
+
+    <!-- <div class="col-2"></div> -->
+    <div class="fondo-item">
+      <a class="text" href="https://www.paginaweb.com">www.itbank.com</a>
+    </div>
+  </div>
+</footer>
+
+
  <!-- JavaScript Bundle with Popper -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
- integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
- crossorigin="anonymous"></script>
-<script src="js/auth.js"></script>
+   <!-- JavaScript Bundle with Popper -->
+   <script
+   src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+   crossorigin="anonymous"
+ ></script>
+ <script src="js/auth.js"></script>
+ <script src="js/fetch.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
